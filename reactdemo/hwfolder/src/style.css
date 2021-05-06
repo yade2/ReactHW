@@ -1,0 +1,72 @@
+  .body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 50px 25px;
+    height: 100vh;
+    grid-template-areas:
+      "sidebar header1 header2 header3"
+      "sidebar main main main"
+      "sidebar main main main";
+  }
+
+
+  .LeftPanel {
+    grid-area: sidebar;
+    background-color: rgb(8, 104, 50);
+    display: flex;
+    align-items: left;
+    align-content: space-around;
+  }
+
+  .Reviews {
+      grid-area: header1;
+      background-color: rgb(111, 179, 110);
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      align-content: space-around;
+  }
+
+  .AvgRating {
+    grid-area: header2;
+    background-color: rgb(148, 209, 163);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    align-content: space-around;
+  }
+  
+
+.Analysis {
+    grid-area: header3;
+    background-color: rgb(176, 235, 202);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    align-content: space-around;
+}
+
+.WebsiteVisitors {
+    grid-area: main;
+    background-color: rgb(222, 245, 227);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    align-content: space-around;
+}
+
+
+  /* Stack the layout on small devices/viewports. */
+  /* @media all and (max-width: 575px) {
+    .body { 
+      grid-template-areas: 
+        "header"
+        "article"
+        "ads"
+        "nav";
+        
+      grid-template-rows: 80px 1fr 70px 1fr 70px;  
+      grid-template-columns: 1fr;
+   }
+  } */  
