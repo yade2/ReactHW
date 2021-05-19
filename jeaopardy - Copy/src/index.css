@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;
+}
+body {
+  background-color: rgba(255, 166, 0, 0.507);
+  font-family: sans-serif;
+  color: rgb(139, 139, 134);
+  margin: 0;
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: light;
+  height: 2em;
+  text-shadow: rgb(240, 176, 37) 1px 1px;
+}
+
+.app {
+  text-align: center;
+}
+
+.clueAnswer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 450;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#dec {
+  background-color: #f17c0dbd;
+  border-radius: 12px;
+  padding: 12px 28px;
+  font-family: sans-serif;
+}
+
+#inc {
+  background-color: #d35502;
+  border-radius: 12px;
+  padding: 12px 28px;
+  font-family: sans-serif;
+}
+
+#reset {
+  background-color: #555555;
+  color: white;
+  border-radius: 12px;
+  padding: 12px 28px;
+  font-family: sans-serif;
+}
+
+.getHint_btn {
+  background-color: #f0d045;
+  border-radius: 12px;
+  padding: 12px 28px;
+  font-family: sans-serif;
+}
+
+#reveal {
+  background-color: #af5b50;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-family: sans-serif;
+}
+
+.Answer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 100;
+  font-family: sans-serif;
+}
